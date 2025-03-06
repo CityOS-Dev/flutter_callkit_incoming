@@ -441,6 +441,7 @@ public class SwiftFlutterCallkitIncomingPlugin: NSObject, FlutterPlugin, CXProvi
                     .allowBluetoothA2DP,
                     .duckOthers,
                     .allowBluetooth,
+                    .defaultToSpeaker,
                 ])
                 
                 try session.setMode(self.getAudioSessionMode(data?.audioSessionMode))
